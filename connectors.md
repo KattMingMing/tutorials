@@ -26,9 +26,3 @@ Note that the Interledger addresses for your shop and your 'testnet-pay.js' scri
 This is because they are both accounts on private ledgers, run on the amundsen.michielbdejong.com server.
 
 You will also be able to pay out to XRP wallets; just set the destination address to `test.crypto.xrp.' + the XRP address.
-
-## Using the Interfaucet
-
-You can use the Interfaucet to get free test money, delivered to anywhere on the testnet-of-testnets. The use of the
-Interfaucet is based on [version 2 of the Interledger Payment Request standard](https://interledger.org/rfcs/0011-interledger-payment-request/draft-1.html).
-Just run the `fund.js` script, and follow the instructions! :)

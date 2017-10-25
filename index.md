@@ -10,6 +10,7 @@ first time. The main programming language used is JavaScript.
 * [Streaming Payments](./streaming-payments)
 * [Trustlines](./trustlines)
 * [Connectors](./connectors)
+* [Payment Requests](./payment-requests)
 
 ## Versioning
 
