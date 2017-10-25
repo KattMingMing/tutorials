@@ -9,6 +9,7 @@ first time. The main programming language used is JavaScript.
 * [The Letter Shop](./letter-shop)
 * [Streaming Payments](./streaming-payments)
 * [Trustlines](./trustlines)
+* [Connectors](./connectors)
 
 ## Versioning
 
