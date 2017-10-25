@@ -50,5 +50,7 @@ plugin.connect().then(function () {
       res.end('Please send an Interledger payment by running: node ./testnet-pay.js ' + plugin.getAccount() + ' 10 ' + condition)
     }
   }).listen(8000)
-  console.log('web server started')
+  setTimeout(function () {
+    console.log('web server started, please visit http://localhost:8000')
+  }, 3000)
 })

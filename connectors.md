@@ -10,7 +10,14 @@ and to join, you either have to convince these existing nodes to list your node,
 of the nodes. The easiest way to do this is to set up a BTP trustline with Amundsen, a testnet node that is specialized
 in offering onboarding to people who are new to the network.
 
-Run the `testnet-shop.js` script. You'll see it uses the 'ilp-plugin-btp-client' plugin to connect to Amundsen. The
+Run the `testnet-shop.js` script:
+
+```sh
+npm install
+node testnet-shop.js
+```
+
+ You'll see it uses the 'ilp-plugin-btp-client' plugin to connect to Amundsen. The
 username and token are chosen randomly.
 
 Now, when you visit http://localhost:8000, you'll be instructed to run `testnet-pay.js`. It functions differently than
